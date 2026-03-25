@@ -3,30 +3,58 @@
     "order_id": "ORD-001",
     "customer": "Alice Johnson",
     "city": "London",
-    "status": "Processing"
+    "status": "Processing",
+    "processed_at": "2026-03-25T16:58:13.541Z",
+    "weather": {
+      "main": "Clouds",
+      "description": "broken clouds",
+      "temperature": 7.15
+    }
   },
   {
     "order_id": "ORD-002",
     "customer": "Bob Smith",
     "city": "Mumbai",
-    "status": "Processing"
+    "status": "Processing",
+    "processed_at": "2026-03-25T16:58:13.541Z",
+    "weather": {
+      "main": "Haze",
+      "description": "haze",
+      "temperature": 29.99
+    }
   },
   {
     "order_id": "ORD-003",
     "customer": "Carlos Rivera",
     "city": "New York",
-    "status": "Processing"
+    "status": "Processing",
+    "processed_at": "2026-03-25T16:58:13.541Z",
+    "weather": {
+      "main": "Clear",
+      "description": "clear sky",
+      "temperature": 10.12
+    }
   },
   {
     "order_id": "ORD-004",
     "customer": "Diana Chen",
     "city": "Tokyo",
-    "status": "Processing"
+    "status": "Delayed",
+    "processed_at": "2026-03-25T16:58:13.541Z",
+    "weather": {
+      "main": "Rain",
+      "description": "heavy intensity rain",
+      "temperature": 11.01
+    },
+    "delay_reason": "Rain",
+    "apology_message": "Hi Diana, your order to Tokyo is delayed due to rain conditions. We appreciate your patience and will update you once it's on its way!"
   },
   {
     "order_id": "ORD-005",
     "customer": "Ethan Brown",
     "city": "InvalidCity123",
-    "status": "Processing"
+    "status": "Processing",
+    "processed_at": "2026-03-25T16:58:13.541Z",
+    "weather": "unavailable"
   }
 ]
