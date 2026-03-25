@@ -112,6 +112,10 @@ node index.js
 | [dotenv](https://www.npmjs.com/package/dotenv) | Load environment variables from `.env` |
 | [axios](https://www.npmjs.com/package/axios) | HTTP client with timeout and error handling |
 
+## Demo
+
+[Watch the demo on Loom](https://www.loom.com/share/2550d6ff42ac4449a2f497ac89c2ad3d)
+
 ## License
 
 ISC
